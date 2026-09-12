@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Gallary</title>
+  <link rel="stylesheet" href="style (1).css">
+</head>
+
+<body>
+  <header class="header">
+    <p>Welcome</p>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#gal">gallary</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <section class="container">
+    <h1 class="title">gallary</h1>
+    <div class="gallary" id="gal">
+      <img src="New folder/vanegoje.jpg" alt="Sample 1">
+      <img src="New folder/vanegj2.jpg" alt="Sample 2">
+      <img src="New folder/vanegj.jpg" alt="Sample 3">
+      <img src="New folder/van3.jpg" alt="Sample 4">
+      <img src="New folder/van2.jpg" alt="Sample 5">
+      <img src="New folder/vas.jpg" alt="Sample 6">
+    </div>
+    <div class="lightbox" id="lightbox">
+      <!-- <button>&times;</button> -->
+      <span class="close" onclick="closelightbox()">&times;</span>
+      <!-- <button>&#10095;</button> -->
+      <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+      <img id="lightbox-img" src="" alt="">
+      <!-- <button>&#10094;</button> -->
+      <span class="next" onclick="changeImage(1)">&#10095;</span>
+    </div>
+  </section>
+  <section class="about about-section">
+    <div class="about-contant">
+      <div class="about-img">
+
+      </div>
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Hi</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
