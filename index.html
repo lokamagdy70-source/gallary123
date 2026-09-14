@@ -1,63 +1,78 @@
 
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Gallary</title>
-  <link rel="stylesheet" href="style (1).css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="style (1).css">
 </head>
 
 <body>
-  <header class="header">
-    <p>Welcome</p>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#gal">gallary</a></li>
-      </ul>
-    </nav>
+    <header class="header">
+        <p>Welcome</p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                                <li><a href="contact.html">contact</a></li>
 
-  </header>
-  <section class="container">
-    <h1 class="title">gallary</h1>
-    <div class="gallary" id="gal">
-            <img src="https://media.istockphoto.com/id/471246468/photo/digital-art-paint-composition-field-sunflower-sunny-day.jpg?s=1024x1024&w=is&k=20&c=eSrzIF11w8B3m5ejrR2hNhYl9OH3PVP1bLo38bJc_vI=" alt="Sample 1">
+            </ul>
+        </nav>
+    </header>
 
-       <img src="https://media.istockphoto.com/id/472675984/photo/summer-meadow-blow-balls-landscape-painting.jpg?s=1024x1024&w=is&k=20&c=moLxxwgkrABF2hWEbHBeBm-5SFOZk6W4Ac_1BWLachY=" alt="Sample 2">
-      <img src="https://media.istockphoto.com/id/499243811/photo/van-gogh-sunflowers-stamp.jpg?s=1024x1024&w=is&k=20&c=B4-f9_omWRIY6HXWsYehc6yij7A4D9iq9Hl-Pbj7Gh0=" alt="Sample 3">
-      <img src="https://media.istockphoto.com/id/174937207/photo/turkey-van-gogh-self-portrait-postage-stamp.jpg?s=1024x1024&w=is&k=20&c=dSKPQ2jmqF5DmRtIFUdnoFeoWLh0Kq_Dbv-V50DVXH0=" alt="Sample 4">
-      <img src="https://media.istockphoto.com/id/955953344/photo/dandelion.jpg?s=1024x1024&w=is&k=20&c=qTiMhxHg-XeUVZNlhjKVPVOLAhpkg4363xyTU8FgF_I=" alt="Sample 5">
-      <img src="https://media.istockphoto.com/id/472675982/photo/bouquet-of-flowers-spring-painting.jpg?s=1024x1024&w=is&k=20&c=CGNGOMuvrTLONedtGgodphZ3qDy4mNqZ22eQs0FJWFk=" alt="Sample 6">
-    </div>
-    <div class="lightbox" id="lightbox">
-      <!-- <button>&times;</button> -->
-      <span class="close" onclick="closelightbox()">&times;</span>
-      <!-- <button>&#10095;</button> -->
-      <span class="prev" onclick="changeImage(-1)">&#10094;</span>
-      <img id="lightbox-img" src="" alt="">
-      <!-- <button>&#10094;</button> -->
-      <span class="next" onclick="changeImage(1)">&#10095;</span>
-    </div>
-  </section>
-  <section class="about about-section">
-    <div class="about-contant">
-      <div class="about-img">
+    <section class="container" id="gallery">
+        <h1 class="title">Gallery</h1>
 
-      </div>
-      <div class="about-text">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.</p>
-        <a href="#" class="btn">read more</a>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <p>Hi</p>
-  </footer>
-  <script src="script.js"></script>
+        <div class="gallery-grid">
+            <img src="https://media.istockphoto.com/id/471246468/photo/digital-art-paint-composition-field-sunflower-sunny-day.jpg?s=1024x1024&w=is&k=20&c=eSrzIF11w8B3m5ejrR2hNhYl9OH3PVP1bLo38bJc_vI="
+                alt="Sunflower Field">
+            <img src="https://media.istockphoto.com/id/472675984/photo/summer-meadow-blow-balls-landscape-painting.jpg?s=1024x1024&w=is&k=20&c=moLxxwgkrABF2hWEbHBeBm-5SFOZk6W4Ac_1BWLachY="
+                alt="Summer Meadow">
+            <img src="https://media.istockphoto.com/id/499243811/photo/van-gogh-sunflowers-stamp.jpg?s=1024x1024&w=is&k=20&c=B4-f9_omWRIY6HXWsYehc6yij7A4D9iq9Hl-Pbj7Gh0="
+                alt="Van Gogh Sunflowers">
+            <img src="https://media.istockphoto.com/id/174937207/photo/turkey-van-gogh-self-portrait-postage-stamp.jpg?s=1024x1024&w=is&k=20&c=dSKPQ2jmqF5DmRtIFUdnoFeoWLh0Kq_Dbv-V50DVXH0="
+                alt="Van Gogh Self Portrait">
+            <img src="https://media.istockphoto.com/id/955953344/photo/dandelion.jpg?s=1024x1024&w=is&k=20&c=qTiMhxHg-XeUVZNlhjKVPVOLAhpkg4363xyTU8FgF_I="
+                alt="Dandelion Magic">
+            <img src="https://media.istockphoto.com/id/472675982/photo/bouquet-of-flowers-spring-painting.jpg?s=1024x1024&w=is&k=20&c=CGNGOMuvrTLONedtGgodphZ3qDy4mNqZ22eQs0FJWFk="
+                alt="Spring Bouquet">
+        </div>
+
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+            <span class="close" onclick="closeLightbox()">&times;</span>
+            <div class="lightbox-counter" id="lightbox-counter">1 / 6</div>
+
+            <span class="prev" onclick="changeImage(-1)">&#10094;</span>
+            <img id="lightbox-img" src="" alt="">
+            <span class="next" onclick="changeImage(1)">&#10095;</span>
+
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-img"></div>
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>We believe in the power of art to inspire and transform. Welcome to our digital gallery where we
+                        showcase breathtaking paintings and photography from talented artists around the world.</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Made with ❤️ | All rights reserved &copy; 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
